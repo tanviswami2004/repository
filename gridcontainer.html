@@ -1,0 +1,39 @@
+<html>
+<head>
+    <style>
+        .grid-container {
+            display:grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            gap: 10px;
+            padding: 10px;
+        }
+        .grid-container > div {
+            border: 2px solid black;
+            text-align: center;
+            font-size: 30px;
+        }
+        .one { background-color: red;
+        color: green;}
+        .two { background-color: purple;}
+        .three { background-color: orange;}
+        .four{ background-color: blue;}
+        .five { background-color: greenyellow;}
+        .six { background-color: pink;}
+        </style>
+        </head>
+        <body>
+        <h1> grid container</h1>
+        <p> use the <em> align content </em> property to vertically align the grid inside </P>
+        <p> the value center will align the rows in the middle of the container </P>
+            <div class="grid-container">
+        <div class ="one"> red </div>
+        <div class ="two"> purple </div>
+        <div class ="three"> orange </div>
+        <div class ="four"> blue </div>
+        <div class ="five"> yellow </div>
+        <div class ="six"> pink </div>
+        </div>
+        </body>
+</html>
+       
